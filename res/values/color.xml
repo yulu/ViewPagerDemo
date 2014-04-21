@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basic Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#6a6a6a</color>
+    <color name="black">#000000</color>
+    <color name="transparent0">#00000000</color>
+    
+    <!-- Theme Colors -->
+    <color name="theme">#529394</color>
+    <color name="trans_theme">#B3aad0d0</color>
+
+</resources>
