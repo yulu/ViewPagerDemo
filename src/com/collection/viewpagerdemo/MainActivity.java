@@ -23,7 +23,7 @@ public class MainActivity extends FragmentActivity{
     
     private ViewPager mPager;
     private PagerAdapter mPagerAdapter;
-    private IndicatorView mIndicator;
+    private CustomerIndicator mIndicator;
     
     
 	@Override
@@ -36,9 +36,8 @@ public class MainActivity extends FragmentActivity{
         mPagerAdapter = new ScreenSlidePagerAdapter(getSupportFragmentManager());
         mPager.setAdapter(mPagerAdapter);
                
-        mIndicator = (IndicatorView)findViewById(R.id.indicator_view);
+        mIndicator = (CustomerIndicator)findViewById(R.id.indicator_view);
         mIndicator.initView(getApplicationContext(), NUM_PAGES);
-        mIndicator.pageChanged(0);
         
         mPager.setOnPageChangeListener(new OnPageChangeListener() {
 
